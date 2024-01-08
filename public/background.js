@@ -6,7 +6,7 @@ chrome.contextMenus.create({
 });
 
 // WordsAPI key
-const apiKey = '881c863eaemsh21534f10c861d82p18c82bjsna7906c6048f3';
+const apiKey = 'YOUR_API_KEY';
 
 async function getDefinition(theword) {
   const word = theword.toLowerCase();
