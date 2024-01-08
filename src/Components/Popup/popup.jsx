@@ -13,7 +13,7 @@ const Popup = (props) =>{
     const [wordTitle,setWordTitle] = useState("");
     const [newWordError,setNewWordError] = useState("")
 
-    const API_KEY = '881c863eaemsh21534f10c861d82p18c82bjsna7906c6048f3';
+    const API_KEY = 'YOUR_API_KEY';
     const API_ENDPOINT = `https://wordsapiv1.p.rapidapi.com/words/${wordTitle}`;
 
     const LOCAL_STORAGE_KEY = "word:savedWords"
