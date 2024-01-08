@@ -31,7 +31,7 @@ const GptComponent = () => {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': 'Bearer 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'
+            'Authorization': 'Bearer YOUR_API_KEY'
         },
         body: JSON.stringify({
             model: 'gpt-3.5-turbo-instruct',
