@@ -1,0 +1,21 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border-bottom: 0.4px solid #f2f2f25d; */
+    padding: 14px 0px 14px 0px;
+}
+nav h1 span{
+    color: #33b650d0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 10px;
+    background-color: #474e49d0;
+    padding: 0px 5px;
+    border-radius: 4px;
+    transition: all ease-in-out 0.8s;
+}

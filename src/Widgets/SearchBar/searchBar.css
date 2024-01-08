@@ -1,0 +1,42 @@
+.search-word-form{
+    display: flex;
+    margin-bottom: 15px;
+}
+.search-word-form input{
+    background-color: #413e3e73;
+    color: white;
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 5px 0px 0px 5px;
+    text-transform: lowercase;
+}
+.search-word-form button{
+    background-color: #413e3e73;
+    color: white;
+    border: none;
+    outline: none;
+    width: 20%;
+    padding: 10px 0px;
+    font-size: 14px;
+    background-color: #33b650d0;
+    border-radius: 0px 5px 5px 0px;
+}
+.search-dropdown{
+    background-color: #2b2929;
+    position: absolute;
+    border-radius: 5px;
+    width: 200px;
+    margin-top: -10px;
+}
+.search-dropdown div{
+    font-size: 12px;
+    padding: 5px 10px;
+    text-transform: lowercase;
+    background-color: transparent;
+}
+.search-dropdown div:hover{
+    background-color: #33b650d0;
+}

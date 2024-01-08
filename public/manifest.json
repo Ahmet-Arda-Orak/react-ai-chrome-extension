@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Dictai",
+  "description": "Create your own English dictionary while reading online. Right click to the word you don't know and automatically save it to your dictionary with its definition. Build vocabulary with gamification and let AI generate stories with the words you have selected and make you learn better.",
+  "version": "1.0.0",
+  "background": {
+    "service_worker": "background.js"
+  },  
+
+  "icons": {
+    "16": "./icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_title": "Dictai",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "storage","contextMenus","notifications"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
